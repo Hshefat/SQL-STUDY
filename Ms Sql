@@ -7,7 +7,7 @@ Let's first define the tables. The core tables we'll need for this example are:
     Transactions Table - To track any other transaction for earnings, losses, etc.
 
 1. Products Table
-```sql
+```sql 
 CREATE TABLE Products (
     ProductID INT PRIMARY KEY IDENTITY(1,1),
     ProductName NVARCHAR(100) NOT NULL,
