@@ -44,7 +44,11 @@ CREATE TABLE Transactions (
     Description NVARCHAR(255)
 );
 
-Step 2: Stored Procedures
+
+```
+#Step 2: Stored Procedures
+```sql
+
 
 Now let's create stored procedures for the operations you requested:
 1. Insert Product (Create)
