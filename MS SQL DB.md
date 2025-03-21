@@ -22,8 +22,8 @@ CREATE TABLE Products (
     TotalCost DECIMAL(18, 2) DEFAULT 0.00,
     Profit DECIMAL(18, 2) DEFAULT 0.00
 );
- ```
-# 2. Sales Table
+ 
+ 2. Sales Table
 
 CREATE TABLE Sales (
     SaleID INT PRIMARY KEY IDENTITY(1,1),
@@ -35,13 +35,6 @@ CREATE TABLE Sales (
     FOREIGN KEY (ProductID) REFERENCES Products(ProductID)
 );
 
-    SaleID: Unique sale transaction ID.
-    ProductID: The product that was sold.
-    Quantity: The number of products sold.
-    SaleDate: The date and time of the sale.
-    SalePrice: Price at which the product was sold.
-    TotalAmount: Computed field for total amount of the sale.
-
 3. Transactions Table
 
 CREATE TABLE Transactions (
@@ -51,12 +44,6 @@ CREATE TABLE Transactions (
     TransactionDate DATETIME DEFAULT GETDATE(),
     Description NVARCHAR(255)
 );
-
-    TransactionID: Unique ID for each transaction.
-    TransactionType: Type of transaction (e.g., earnings, costs, losses).
-    Amount: The amount for the transaction.
-    TransactionDate: The date and time of the transaction.
-    Description: Optional description of the transaction.
 
 Step 2: Stored Procedures
 
