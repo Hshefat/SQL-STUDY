@@ -31,7 +31,7 @@ CREATE TABLE Products (
     TotalEarned: The total earnings from selling this product.
     TotalCost: The total cost price of the product (used for calculating profit).
     Profit: Calculated profit from this product.
-
+``` 
 2. Sales Table
 
 CREATE TABLE Sales (
