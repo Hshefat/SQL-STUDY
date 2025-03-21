@@ -148,7 +148,15 @@ BEGIN
     FROM Sales;
 END
 
-Step 3: Example of Using the Stored Procedures
+
+
+```
+ ##3: Example of Using the Stored Procedures
+```sql
+
+
+
+ 
 
 Here’s how you can use the stored procedures:
 
