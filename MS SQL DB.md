@@ -22,17 +22,8 @@ CREATE TABLE Products (
     TotalCost DECIMAL(18, 2) DEFAULT 0.00,
     Profit DECIMAL(18, 2) DEFAULT 0.00
 );
-
-    ProductID: Primary key for the product.
-    ProductName: The name of the product.
-    Category: Product category (e.g., Electronics, Furniture).
-    Price: Sale price of the product.
-    StockQuantity: The number of items in stock.
-    TotalEarned: The total earnings from selling this product.
-    TotalCost: The total cost price of the product (used for calculating profit).
-    Profit: Calculated profit from this product.
-``` 
-2. Sales Table
+ ```
+# 2. Sales Table
 
 CREATE TABLE Sales (
     SaleID INT PRIMARY KEY IDENTITY(1,1),
