@@ -42,8 +42,13 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('Total Spent: ' || total_spent);
 END;
 /
+```
+
+
 
 2. MS SQL Server T-SQL Stored Procedure
+```sql
+
 
 In MS SQL Server, we will create a T-SQL procedure that performs the same task as the Oracle procedure—calculating the total amount spent by a customer.
 MS SQL Server Table Structure (Example):
